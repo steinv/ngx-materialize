@@ -35,5 +35,25 @@
     "@angular/common": ">=6.0.0 || >=7.0.0 || >=8.0.0 || >=9.0.0 || >=10.0.0 || >=11.0.0 || >=12.0.0 || >=13.0.0 || >=14.0.0 || >=15.0.0 || >=16.0.0 || >=17.0.0",
     "@angular/core": ">=6.0.0 || >=7.0.0 || >=8.0.0 || >=9.0.0 || >=10.0.0 || >=11.0.0 || >=12.0.0 || >=13.0.0 || >=14.0.0 || >=15.0.0 || >=16.0.0  || >=17.0.0",
     "@materializecss/materialize": "^1.2.1"
-  }
+  },
+  "module": "fesm2015/steinv-ngx-materialize.mjs",
+  "es2020": "fesm2020/steinv-ngx-materialize.mjs",
+  "esm2020": "esm2020/steinv-ngx-materialize.mjs",
+  "fesm2020": "fesm2020/steinv-ngx-materialize.mjs",
+  "fesm2015": "fesm2015/steinv-ngx-materialize.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/steinv-ngx-materialize.mjs",
+      "es2020": "./fesm2020/steinv-ngx-materialize.mjs",
+      "es2015": "./fesm2015/steinv-ngx-materialize.mjs",
+      "node": "./fesm2015/steinv-ngx-materialize.mjs",
+      "default": "./fesm2020/steinv-ngx-materialize.mjs"
+    }
+  },
+  "sideEffects": false
 }
